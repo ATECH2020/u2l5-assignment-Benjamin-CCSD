@@ -4,7 +4,6 @@ public class ConstructionTester
 {
     public static void main(String[] args)
     {
-        
         Scanner in = new Scanner(System.in);
         Construction myConstruction;
         double lumberCost;
@@ -29,8 +28,6 @@ public class ConstructionTester
         total = lumberPrice + windowPrice;
         System.out.println("Total: " + total);
         System.out.print("Grand Total: " + myConstruction.grandTotal(total));
-
-
 
     }
 }
